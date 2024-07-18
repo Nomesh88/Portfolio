@@ -68,7 +68,6 @@ function sendEmail() {
 	useremail=document.getElementById('email').value
 	usermsg=document.getElementById('msg').value
 	Email.send({
-		SecureToken : "C973D7AD-F097-4B95-91F4-40ABC5567812",
 		To : 'nomeshpalakaluri@gmail.com',
 		From : useremail,
 		Subject : username,
